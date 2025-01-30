@@ -9,7 +9,7 @@
 # -----------------------------
 # Configuration & Constants
 # -----------------------------
-API_KEY_FILE="$HOME/.openai_api_key"
+API_KEY_FILE="$HOME/.config/clibuddy/api_key"
 DEFAULT_MODEL="gpt-4"
 DEFAULT_TEMPERATURE="0"
 PROGRAM_NAME=$(basename "$0")
