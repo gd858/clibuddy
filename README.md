@@ -20,7 +20,7 @@ chmod +x installer.sh
 ```bash
 curl -L -o clibuddy.tar.gz "https://github.com/gd858/clibuddy/archive/refs/tags/v1.0.0.tar.gz"
 tar -xzvf clibuddy.tar.gz
-cd clibuddy-1.0.0
+cd clibuddy-1.0.0/src
 chmod +x installer.sh
 ./installer.sh
 ```
