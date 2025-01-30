@@ -6,23 +6,22 @@
 
 ## **📌 Installation Guide**  
 
-### **1️⃣ Clone the Repository**
+You can install **CliBuddy** using **Git** or by downloading the `.tar.gz` archive.
+
+### **Option 1: Install via Git**
 ```bash
 git clone https://github.com/gd858/clibuddy.git
-```
-
-### **2️⃣ Navigate to the Project Directory**
-```bash
 cd clibuddy
-```
-
-### **3️⃣ Make the Installer Executable**
-```bash
 chmod +x installer.sh
+./installer.sh
 ```
 
-### **4️⃣ Run the Installer**
+### **Option 2: Install via Tarball**
 ```bash
+curl -L -o clibuddy.tar.gz "https://github.com/gd858/clibuddy/archive/refs/tags/v1.0.0.tar.gz"
+tar -xzvf clibuddy.tar.gz
+cd clibuddy-1.0.0
+chmod +x installer.sh
 ./installer.sh
 ```
 
